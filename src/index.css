@@ -7,12 +7,18 @@
 @layer base {
   html {
     @apply font-poppins text-lg mx-auto;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+  }
+
+  a {
+    @apply dark:text-white hover:text-blue-500 hover:scale-110 duration-300
   }
 }
 
 @layer components {
   .profile-pic {
-    border: 3px solid rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
     border-top-left-radius: 60%;
     border-top-right-radius: 40% 30%;
     border-bottom-right-radius: 30% 70%;
@@ -37,6 +43,6 @@
   }
 
   .section {
-    @apply px-12 md:p-20 2xl:max-w-[1800px] max-w-screen-2xl mx-auto;
+    @apply px-8 md:px-20 md:py-5 2xl:max-w-[1800px] max-w-screen-2xl mx-auto relative;
   }
 }

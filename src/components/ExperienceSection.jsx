@@ -1,16 +1,17 @@
-import { Background } from './Background'
 import { companies } from '../mocks/companies'
 import { Experiences } from './Experiences'
 
 export function ExperienceSection() {
   return (
-    <section>
-      <Background />
+    <section
+      id='experience'
+      className='bg-graytr 2xl:py-32 py-12 dark:bg-zinc-900'
+    >
       <div className='section'>
         <h1 className='text-4xl text-blue-700 font-semibold'>Experience</h1>
-        <div className='h-[3px] w-32 2xl:w-36 mt-1 bg-black'></div>
-        <h3 className='mt-2 italic text-gray-500 text-lg'>
-          Software Engineer with 3 years of Software Development experience
+        <div className='h-[3px] w-32 2xl:w-36 mt-1 bg-black dark:bg-gray-200'></div>
+        <h3 className='mt-2 italic text-gray-500 dark:text-gray-200 text-lg'>
+          Software Engineer with +3 years of Software Development experience 🚀
         </h3>
         <ul className='grid lg:grid-cols-3 gap-8'>
           {companies.map(company => (
@@ -20,6 +21,8 @@ export function ExperienceSection() {
                 description={company.description}
                 technologies={company.technologies}
                 date={company.date}
+                name={company.companyName}
+                location={company.location}
               />
             </li>
           ))}

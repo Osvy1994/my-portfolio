@@ -8,15 +8,19 @@ export function Project({
   cssFramework,
 }) {
   return (
-    <div className='rounded-3xl bg-white p-6 flex flex-col items-center justify-center gap-5 shadow-xl'>
+    <div className='rounded-3xl bg-white dark:bg-zinc-900/70 dark:text-gray-100 p-6 flex flex-col items-center justify-center gap-5 shadow-xl'>
       <div className='basis-2/4'>
-        <img className='rounded-3xl shadow-lg' src={image} alt='' />
+        <img
+          className='rounded-3xl shadow-lg'
+          src={image}
+          alt='Web page preview'
+        />
       </div>
       <div className='basis-2/4 flex flex-col items-center justify-center gap-3'>
         <h1 className='font-semibold'>
           {name} {date}
         </h1>
-        <p className='text-center text-sm max-w-64 font-semibold text-gray-600'>
+        <p className='text-center text-sm max-w-64 font-semibold text-gray-600 dark:text-gray-300'>
           {details}
         </p>
         <div className='flex gap-4'>
