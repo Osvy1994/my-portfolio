@@ -1,3 +1,4 @@
+import { Toaster } from 'sonner'
 import './App.css'
 import { Background } from './components/Background'
 import { ContactSection } from './components/ContactSection'
@@ -8,9 +9,9 @@ import { Navbar } from './components/Navbar'
 import { PortfolioSection } from './components/PortfolioSection'
 
 function App() {
-
   return (
     <main>
+      <Toaster richColors theme={'system'} />
       <Background />
       <Navbar />
       <HeroSection />

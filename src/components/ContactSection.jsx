@@ -2,6 +2,7 @@
 import { CiLinkedin } from 'react-icons/ci'
 import { FaGithub } from 'react-icons/fa'
 import { Background } from './Background'
+import { FormComp } from './FormComp'
 
 export function ContactSection() {
   return (
@@ -14,47 +15,7 @@ export function ContactSection() {
           <h3 className='mt-2 italic text-gray-500 dark:text-gray-200 text-lg mb-12'>
             I would like to hear from you ⌨️
           </h3>
-          <form className='dark:text-gray-100 space-y-4' action='submit'>
-            <div className='lg:flex gap-4 space-y-4 lg:space-y-0'>
-              <div className='flex flex-col'>
-                <label className='pb-1' htmlFor='fullName'>
-                  Full Name
-                </label>
-                <input
-                  className='border-2 px-3 py-2 rounded-lg dark:bg-zinc-900 placeholder:text-sm focus:ring-blue-500 focus:border-blue-500 focus:ring focus:ring-opacity-40 focus:outline-none'
-                  id='fullName'
-                  type='text'
-                  placeholder='John Doe'
-                />
-              </div>
-              <div className='flex flex-col'>
-                <label className='pb-1' htmlFor='email'>
-                  Email Address
-                </label>
-                <input
-                  className='border-2 px-3 py-2 rounded-lg dark:bg-zinc-900 focus:ring-blue-500 focus:border-blue-500 placeholder:text-sm focus:ring focus:ring-opacity-40 focus:outline-none'
-                  id='email'
-                  type='email'
-                  placeholder='johndoe@gmail.com'
-                />
-              </div>
-            </div>
-            <div className='flex flex-col'>
-              <label className='pb-1' htmlFor='message'>
-                Message
-              </label>
-              <textarea
-                className='border-2 dark:bg-zinc-900 px-3 py-2 w-full h-[222px] rounded-lg placeholder:text-sm focus:ring-blue-500 focus:border-blue-500 focus:ring focus:ring-opacity-40 focus:outline-none'
-                id='message'
-                placeholder='Message'
-              />
-            </div>
-            <div className='pt-4 pb-8'>
-              <button className='w-full h-12 rounded-lg bg-blue-600 font-semibold text-white'>
-                Get In Touch
-              </button>
-            </div>
-          </form>
+          <FormComp />
         </div>
         <div className='flex-col space-y-3'>
           <img

@@ -45,4 +45,8 @@
   .section {
     @apply px-8 md:px-20 md:py-5 2xl:max-w-[1800px] max-w-screen-2xl mx-auto relative;
   }
+
+  .form-error {
+    @apply text-red-500 pt-1 pl-1 italic text-base
+  }
 }
