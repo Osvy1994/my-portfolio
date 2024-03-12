@@ -4,8 +4,7 @@ export const myProjects = [
     projectName: 'Price Tracker',
     projectImage: '/crypto-prices.png',
     projectDate: 'December 2022',
-    projectLink:
-      'https://crypto-prices-9wlze784n-osvaldo-madrigals-projects.vercel.app',
+    projectLink: 'https://crypto-prices-snowy.vercel.app/',
     github: 'https://github.com/Osvy1994/crypto-prices',
     projectDetails:
       'Crypto Price Tracker provides information on cryptocurrency prices from various exchanges. Stay informed about the latest market trends and make informed decisions with our intuitive interface. With live updates, you can track the performance of your favorite cryptocurrencies in real-time.',
