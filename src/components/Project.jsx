@@ -1,26 +1,27 @@
 /* eslint-disable react/prop-types */
 export function Project({
   name,
-  date,
   image,
   details,
   jsFramework,
   cssFramework,
+  page,
+  github
 }) {
   return (
-    <div className='rounded-3xl bg-white dark:bg-zinc-900/70 dark:text-gray-100 p-6 flex flex-col items-center justify-center gap-5 shadow-xl'>
-      <div className='basis-2/4'>
+    <div className='rounded-3xl bg-white dark:bg-zinc-900/70 dark:text-gray-100 p-6 flex flex-col items-center justify-center gap-5 shadow-xl h-[700px] max-w-[500px] mx-auto'>
+      <div className='basis-2/4 overflow-hidden rounded-3xl shadow-lg transition hover:scale-105 ease-in-out'>
         <img
-          className='rounded-3xl shadow-lg'
+          className='rounded-3xl object-cover xl:hover:-translate-y-[77%] hover:-translate-y-[71%] hover:cursor-pointer duration-[8s]'
           src={image}
-          alt='Web page preview'
+          alt={`${name} web page preview `}
         />
       </div>
       <div className='basis-2/4 flex flex-col items-center justify-center gap-3'>
-        <h1 className='font-semibold'>
-          {name} {date}
+        <h1 className='font-bold dark:text-blue-500 text-blue-600'>
+          {name.toUpperCase()}
         </h1>
-        <p className='text-center text-sm max-w-64 font-semibold text-gray-600 dark:text-gray-300'>
+        <p className='text-center text-sm max-w-72 font-semibold text-gray-600 dark:text-gray-300'>
           {details}
         </p>
         <div className='flex gap-4'>
@@ -28,7 +29,12 @@ export function Project({
           <div className='project-tech-stack'>{cssFramework}</div>
         </div>
         <div className='flex gap-6'>
-          <a href='' className='flex gap-1 items-center'>
+          <a
+            href={github}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex gap-1 items-center'
+          >
             {`Code `}
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -45,7 +51,12 @@ export function Project({
               <path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5'></path>
             </svg>
           </a>
-          <a href='' className='flex gap-1 items-center'>
+          <a
+            href={page}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex gap-1 items-center'
+          >
             {`Live Demo `}
             <svg
               xmlns='http://www.w3.org/2000/svg'

@@ -1,54 +1,27 @@
 export const myProjects = [
   {
     id: 1,
-    reversed: false,
-    projectName: 'CAR RENTAL',
-    projectImage:
-      'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg',
-
-    projectDate: '(February 2023)',
+    projectName: 'Price Tracker',
+    projectImage: '/crypto-prices.png',
+    projectDate: 'December 2022',
+    projectLink:
+      'https://crypto-prices-9wlze784n-osvaldo-madrigals-projects.vercel.app',
+    github: 'https://github.com/Osvy1994/crypto-prices',
     projectDetails:
-      'A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.',
+      'Crypto Price Tracker provides information on cryptocurrency prices from various exchanges. Stay informed about the latest market trends and make informed decisions with our intuitive interface. With live updates, you can track the performance of your favorite cryptocurrencies in real-time.',
     jsFramework: 'React',
-    cssFramework: 'Bootstrap',
+    cssFramework: 'Pure CSS',
   },
   {
     id: 2,
-    reversed: true,
-    projectName: 'COINDOM',
-    projectImage:
-      'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg',
-
-    projectDate: '(February 2023)',
+    projectName: 'Media Organizer',
+    projectImage: '/media-organizer.jpeg',
+    projectDate: 'February 2023',
+    projectLink: 'https://www.mediaorganizerwebapp.com',
+    github: 'https://github.com/Osvy1994/media-organizer',
     projectDetails:
-      'A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.',
-    jsFramework: 'React',
-    cssFramework: 'Bootstrap',
-  },
-  {
-    id: 3,
-    reversed: false,
-    projectName: 'GYMATE',
-    projectImage:
-      'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg',
-
-    projectDate: '(February 2023)',
-    projectDetails:
-      'A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.',
-    jsFramework: 'React',
-    cssFramework: 'Bootstrap',
-  },
-  {
-    id: 4,
-    reversed: true,
-    projectName: 'ECOMMERCE',
-    projectImage:
-      'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg',
-
-    projectDate: '(February 2023)',
-    projectDetails:
-      'A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.',
-    jsFramework: 'React',
-    cssFramework: 'Bootstrap',
+      'Media Organizer is your all-in-one web application for organizing your favorite books, TV shows, movies, podcasts, music, and video games to enjoy later. You can create custom lists, categorize your media collection, and keep track of everything you want to explore or revisit in the future.',
+    jsFramework: 'NextJS',
+    cssFramework: 'Tailwind',
   },
 ]
