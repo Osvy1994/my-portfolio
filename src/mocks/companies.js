@@ -24,7 +24,7 @@ export const companies = [
     role: 'Front-end Developer',
     companyLogo:
       'https://media.licdn.com/dms/image/C4E0BAQFfpmXqbFKtLw/company-logo_200_200/0/1647444775273?e=1718236800&v=beta&t=Nh8TQvb1x7fI9axolld3n_pXTb4P0KdYBNT46XnVkpM',
-    location: 'West Palm Beach, Remote',
+    location: 'California, United States',
     date: 'Dec 2022 - May 2023',
     description:
       'As a Frontend Developer at Seedstages, I contributed to the development and maintenance of Seedstages, a robust React web app designed to help students in their pursuit of internships. I led the implementation of highly responsive user interface components using advanced React concepts.',
