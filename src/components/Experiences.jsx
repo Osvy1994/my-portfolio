@@ -7,6 +7,7 @@ export function Experiences({
   date,
   description,
   technologies,
+  logo
 }) {
   return (
     <div className='relative mt-16 lg:mt-32 rounded-3xl bg-white dark:text-gray-100 dark:bg-zinc-800 p-6 flex flex-col items-center justify-center gap-5 shadow-xl'>
@@ -36,7 +37,7 @@ export function Experiences({
         <img
           className='rounded-full'
           width={96}
-          src='https://lazaroestrada.com/companies/Nariel.webp'
+          src={logo}
           alt=''
         />
       </div>

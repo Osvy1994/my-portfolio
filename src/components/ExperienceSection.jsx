@@ -13,7 +13,7 @@ export function ExperienceSection() {
         <h3 className='mt-2 italic text-gray-500 dark:text-gray-200 text-lg'>
           Software Engineer with +3 years of Software Development experience 🚀
         </h3>
-        <ul className='grid lg:grid-cols-3 gap-8'>
+        <ul className='grid lg:grid-cols-3 md:grid-cols-1 gap-8'>
           {companies.map(company => (
             <li key={company.id}>
               <Experiences
@@ -23,6 +23,7 @@ export function ExperienceSection() {
                 date={company.date}
                 name={company.companyName}
                 location={company.location}
+                logo={company.companyLogo}
               />
             </li>
           ))}

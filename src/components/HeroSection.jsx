@@ -18,19 +18,18 @@ export function HeroSection() {
               Software Engineer
             </h2>
             <h3 className='text-md lg:text-2xl italic mb-4 2xl:text-3xl'>
-              Miami, Florida, United States
+              Fort Lauderdale, Florida, United States
             </h3>
             <p className='text-gray-500 text-sm lg:text-lg dark:text-gray-300 font-semibold'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Software Engineer with a B.S. Degree in Computer Science.
+              Passionate about coding and consistently integrating the latest
+              advancements and best practices into my professional toolkit. My
+              expertise lies in the Front-End development with a focus on: ReactJS,
+              Next.js, JavaScript and TypeScript. Highly skilled team player
+              with strong communication, problem-solving, and time management
+              skills. Proactive, adaptable, and a quick learner with a positive
+              attitude and attention to detail. Committed to delivering results
+              and exceeding expectations.
             </p>
           </div>
           <div className='basis-2/4'>
