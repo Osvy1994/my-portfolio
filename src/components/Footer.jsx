@@ -28,10 +28,18 @@ export function Footer() {
           © Copyright 2024. All Rights Reserved.
         </h1>
         <div className='flex justify-center items-center gap-2'>
-          <a href=''>
+          <a
+            href='https://www.linkedin.com/in/osvaldo-madrigal-a50774282/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <CiLinkedin className='text-5xl' />
           </a>
-          <a href=''>
+          <a
+            href='https://github.com/Osvy1994'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FaGithub className='text-4xl' />
           </a>
         </div>

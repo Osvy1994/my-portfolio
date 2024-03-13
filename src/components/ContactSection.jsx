@@ -82,10 +82,18 @@ export function ContactSection() {
           <div className='pl-3'>
             <h1 className='italic text-gray-600'>Follow Me:</h1>
             <div className='flex mt-1 -ml-1 items-center gap-2'>
-              <a href='https://www.linkedin.com/in/osvaldo-madrigal-a50774282/'>
+              <a
+                href='https://www.linkedin.com/in/osvaldo-madrigal-a50774282/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <CiLinkedin className='text-3xl text-blue-600' />
               </a>
-              <a href='https://github.com/Osvy1994'>
+              <a
+                href='https://github.com/Osvy1994'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <FaGithub className='text-2xl text-blue-600' />
               </a>
             </div>

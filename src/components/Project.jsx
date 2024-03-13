@@ -6,7 +6,7 @@ export function Project({
   jsFramework,
   cssFramework,
   page,
-  github
+  github,
 }) {
   return (
     <div className='rounded-3xl bg-white dark:bg-zinc-900/70 dark:text-gray-100 p-6 flex flex-col items-center justify-center gap-5 shadow-xl h-[700px] max-w-[500px] mx-auto'>

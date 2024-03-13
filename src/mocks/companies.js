@@ -27,7 +27,7 @@ export const companies = [
     location: 'West Palm Beach, Remote',
     date: 'Dec 2022 - May 2023',
     description:
-      'As a Frontend Developer at Seedstages, I contributed to the development and maintenance of Seedstages, a robust React web app designed to help students in their pursuit of internships.',
+      'As a Frontend Developer at Seedstages, I contributed to the development and maintenance of Seedstages, a robust React web app designed to help students in their pursuit of internships. I led the implementation of highly responsive user interface components using advanced React concepts.',
     technologies: [
       'React',
       'Bootstrap',
@@ -39,14 +39,14 @@ export const companies = [
   },
   {
     id: 3,
-    companyName: 'GDI Integrated Facility Services',
+    companyName: 'GDI Facility Services',
     role: 'Front-end Engineer',
     companyLogo:
       'https://media.licdn.com/dms/image/C4E0BAQG9e9Kw8KszPw/company-logo_200_200/0/1631321063187?e=1718236800&v=beta&t=UtbtHCd2YhUi0vqpz-adKE33BmAsADMlQWUxSN4aaGc',
     location: 'New York, United States',
     date: 'Aug 2021 - Nov 2022',
     description:
-      "As a Frontend Engineer, I contributed to the organization's digital presence and user experience. My responsibilities spanned across the entire Software Development Life Cycle (SDLC), including Requirement Analysis, Implementation, Maintenance, and Agile (SCRUM) methodologies.",
+      "As a Frontend Engineer at GDI, I contributed to the organization's digital presence and user experience. My responsibilities spanned across the entire Software Development Life Cycle, including Requirement Analysis, Implementation, Maintenance and SCRUM methodologies.",
     technologies: ['React', 'HTML5', 'CSS', 'Jest', 'Javascript', 'Git'],
   },
 ]

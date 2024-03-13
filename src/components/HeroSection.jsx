@@ -13,23 +13,25 @@ export function HeroSection() {
       <div className='section'>
         <div className='flex flex-col-reverse md:flex-row items-center lg:space-x-14 2xl:space-x-20 mb-8'>
           <div className='basis-2/4 2xl:space-y-2 flex flex-col justify-center'>
-            <h1 className='text-2xl lg:text-4xl font-bold'>Osvaldo Madrigal</h1>
-            <h2 className=' text-blue-700 font-bold text-xl lg:text-3xl'>
+            <h1 className='text-2xl lg:text-4xl font-semibold'>
+              Osvaldo Madrigal
+            </h1>
+            <h2 className=' text-blue-700 font-semibold text-xl lg:text-3xl'>
               Software Engineer
             </h2>
             <h3 className='text-md lg:text-2xl italic mb-4 2xl:text-3xl'>
               Fort Lauderdale, Florida, United States
             </h3>
-            <p className='text-gray-500 text-sm lg:text-lg dark:text-gray-300 font-semibold'>
+            <p className='text-gray-500 text-sm lg:text-lg dark:text-gray-300'>
               Software Engineer with a B.S. Degree in Computer Science.
               Passionate about coding and consistently integrating the latest
               advancements and best practices into my professional toolkit. My
-              expertise lies in the Front-End development with a focus on: ReactJS,
-              Next.js, JavaScript and TypeScript. Highly skilled team player
-              with strong communication, problem-solving, and time management
-              skills. Proactive, adaptable, and a quick learner with a positive
-              attitude and attention to detail. Committed to delivering results
-              and exceeding expectations.
+              expertise lies in the Front-End development with a focus on:
+              ReactJS, Next.js, JavaScript and TypeScript. Highly skilled team
+              player with strong communication, problem-solving, and time
+              management skills. Proactive, adaptable, and a quick learner with
+              a positive attitude and attention to detail. Committed to
+              delivering results and exceeding expectations.
             </p>
           </div>
           <div className='basis-2/4'>
