@@ -43,7 +43,7 @@ export function ContactSection() {
                 d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'
               ></path>
             </svg>
-            <p className='text-gray-500'>Miami, Florida, United States</p>
+            <p className='text-gray-500'>Fort Lauderdale, Florida, United States</p>
           </div>
           <div className='flex items-center'>
             <svg
