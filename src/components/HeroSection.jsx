@@ -9,7 +9,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section className=' dark:bg-zinc-800 dark:text-white xl:h-screen pb-12'>
+    <section className=' dark:bg-zinc-800 dark:text-white xl:min-h-full pb-12'>
       <div className='section'>
         <div className='flex flex-col-reverse md:flex-row items-center lg:space-x-14 2xl:space-x-20 mb-8'>
           <div className='basis-2/4 2xl:space-y-2 flex flex-col justify-center'>
@@ -44,9 +44,9 @@ export function HeroSection() {
             </div>
           </div>
         </div>
-        <div className='flex flex-col xl:pt-10 items-center justify-center space-y-8'>
+        <div className='flex flex-col xl:pt-5 items-center justify-center space-y-8'>
           <div className='flex flex-col items-center justify-center'>
-            <h1 className='text-2xl font-gray-400 z-10 font-semibold 2xl:text-4xl'>
+            <h1 className='text-2xl font-gray-400 font-semibold 2xl:text-4xl'>
               Tech Stack
             </h1>
             <div className='h-[3px] w-20 2xl:w-36 mt-4 bg-white'></div>
