@@ -25,7 +25,7 @@ export function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className='text-md dark:text-white font-semibold leading-6 text-gray-900'
+              className='text-md dark:text-white leading-6 text-gray-900'
             >
               {`// ${item.name}`}
             </a>
@@ -53,7 +53,7 @@ export function Navbar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='text-sm dark:text-white font-semibold leading-6 text-gray-900'
+                  className='text-sm dark:text-white leading-6 text-gray-900'
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                   {item.name}

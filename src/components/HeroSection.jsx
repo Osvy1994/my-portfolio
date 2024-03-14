@@ -13,16 +13,16 @@ export function HeroSection() {
       <div className='section'>
         <div className='flex flex-col-reverse md:flex-row items-center lg:space-x-14 2xl:space-x-20 mb-8'>
           <div className='basis-2/4 2xl:space-y-2 flex flex-col justify-center'>
-            <h1 className='text-2xl lg:text-4xl font-semibold'>
+            <h1 className='text-2xl lg:text-4xl'>
               Osvaldo Madrigal
             </h1>
-            <h2 className=' text-blue-700 font-semibold text-xl lg:text-3xl'>
+            <h2 className=' text-blue-700 text-xl lg:text-3xl'>
               Software Engineer
             </h2>
-            <h3 className='text-md lg:text-2xl italic mb-4 2xl:text-3xl'>
+            <h3 className='text-md font-light lg:text-2xl italic mb-4 2xl:text-3xl'>
               Fort Lauderdale, Florida, United States
             </h3>
-            <p className='text-gray-500 text-sm lg:text-lg dark:text-gray-300'>
+            <p className='text-gray-500 font-light text-sm lg:text-lg dark:text-gray-300'>
               Software Engineer with a B.S. Degree in Computer Science.
               Passionate about coding and consistently integrating the latest
               advancements and best practices into my professional toolkit. My
@@ -46,10 +46,10 @@ export function HeroSection() {
         </div>
         <div className='flex flex-col xl:pt-5 items-center justify-center space-y-8'>
           <div className='flex flex-col items-center justify-center'>
-            <h1 className='text-2xl font-gray-400 font-semibold 2xl:text-4xl'>
+            <h1 className='text-2xl font-gray-400 2xl:text-4xl'>
               Tech Stack
             </h1>
-            <div className='h-[3px] w-20 2xl:w-36 mt-4 bg-white'></div>
+            <div className='h-[2px] w-20 2xl:w-36 mt-4 bg-white'></div>
           </div>
           <div className='xl:flex  xl:space-x-8 content-center items-center grid grid-cols-3 gap-4'>
             {icons.map(icon => (
