@@ -18,10 +18,10 @@ export function Project({
         />
       </div>
       <div className='basis-2/4 flex flex-col items-center justify-center gap-3'>
-        <h1 className='font-bold dark:text-blue-500 text-blue-600'>
+        <h1 className='font-semibold dark:text-blue-500 text-blue-600'>
           {name.toUpperCase()}
         </h1>
-        <p className='text-center text-sm max-w-72 font-semibold text-gray-600 dark:text-gray-300'>
+        <p className='text-center text-sm max-w-72 text-gray-600 dark:text-gray-300'>
           {details}
         </p>
         <div className='flex gap-4'>
