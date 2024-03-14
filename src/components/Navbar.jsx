@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ThemeSwitcher } from './ThemeSwitcher'
 import { RxHamburgerMenu, RxCross2 } from 'react-icons/rx'
 
-export function NavBar() {
+export function Navbar() {
   const navigation = [
     { name: 'Home', href: '#home' },
     { name: 'Experience', href: '#experience' },
