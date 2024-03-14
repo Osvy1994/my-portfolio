@@ -5,7 +5,7 @@ import { ContactSection } from './components/ContactSection'
 import { ExperienceSection } from './components/ExperienceSection'
 import { Footer } from './components/Footer'
 import { HeroSection } from './components/HeroSection'
-import { Navbar } from './components/Navbar'
+import { NavBar } from './components/NavBar'
 import { PortfolioSection } from './components/PortfolioSection'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <main>
       <Toaster richColors theme={'system'} />
       <Background />
-      <Navbar />
+      <NavBar />
       <HeroSection />
       <ExperienceSection />
       <PortfolioSection />

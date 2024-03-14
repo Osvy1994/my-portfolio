@@ -12,7 +12,7 @@
   }
 
   a {
-    @apply dark:text-white hover:text-blue-500 hover:scale-110 duration-300
+    @apply dark:text-white hover:text-blue-500 hover:scale-110 duration-300;
   }
 }
 
@@ -38,6 +38,16 @@
     }
   }
 
+  .nav-button {
+    animation: appear 0.2s linear;
+  }
+
+  @keyframes appear {
+    0% {
+      transform: translateY(-25%);
+    }
+  }
+
   .project-tech-stack {
     @apply border border-gray-200 rounded-xl py-2 px-3 bg-white text-gray-600 shadow-xl font-bold;
   }
@@ -47,6 +57,6 @@
   }
 
   .form-error {
-    @apply text-red-500 pt-1 pl-1 italic text-sm
+    @apply text-red-500 pt-1 pl-1 italic text-sm;
   }
 }
