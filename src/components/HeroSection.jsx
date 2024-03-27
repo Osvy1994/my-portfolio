@@ -16,7 +16,7 @@ export function HeroSection() {
             <h1 className='text-2xl lg:text-4xl'>
               Osvaldo Madrigal
             </h1>
-            <h2 className=' text-blue-700 text-xl lg:text-3xl'>
+            <h2 className='text-blue-700 text-xl lg:text-3xl'>
               Software Engineer
             </h2>
             <h3 className='text-md font-light lg:text-2xl italic mb-4 2xl:text-3xl'>
@@ -51,11 +51,11 @@ export function HeroSection() {
             </h1>
             <div className='h-[2px] w-20 2xl:w-36 mt-4 bg-white'></div>
           </div>
-          <div className='xl:flex  xl:space-x-8 content-center items-center grid grid-cols-3 gap-4'>
+          <div className='xl:flex xl:space-x-8 content-center items-center grid grid-cols-3 gap-4'>
             {icons.map(icon => (
               <img
                 key={icon}
-                className='h-10 lg:h-16 2xl:h-20'
+                className='h-10 lg:h-16'
                 src={`https://skillicons.dev/icons?i=${icon}`}
                 alt={`${icon} icons`}
               />

@@ -42,7 +42,7 @@ export function ThemeSwitcher({width, height}) {
       }
       checkedIcon={
         <div className='flex justify-center items-center w-full h-full'>
-          <MdOutlineLightMode className='text-black' />
+          <MdOutlineLightMode className='text-gray-200' />
         </div>
       }
     />
